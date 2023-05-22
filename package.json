@@ -1,6 +1,6 @@
 {
   "name": "temp-react-lib",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Ejemplo de una libreria de react",
   "main": "index.js",
   "scripts": {},
