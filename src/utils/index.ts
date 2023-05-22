@@ -1,2 +1,2 @@
 export { imprimirElementos } from './imprimirElementos'
-export { obtenerIniciales } from './obtenerIniciales'
+export { default as obtenerIniciales } from './obtenerIniciales'
