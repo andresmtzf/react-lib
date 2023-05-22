@@ -1,12 +1,11 @@
 {
-  "name": "temp-react-lib-v2",
-  "version": "0.0.6",
+  "name": "temp-react-lib-v3",
+  "version": "0.0.7",
   "description": "Ejemplo de una libreria de react",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "types": "dist/index.d.ts",
   "scripts": {

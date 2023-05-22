@@ -24,7 +24,7 @@ export default [
     ],
     plugins: [
       resolve(),
-      commonjs(),
+      commonjs({ include: 'src/**' }),
       typescript({ tsconfig: './tsconfig.json' }),
       sass({ insert: true }),
     ],
