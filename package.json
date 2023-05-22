@@ -1,0 +1,14 @@
+{
+  "name": "temp-react-lib",
+  "version": "1.0.0",
+  "description": "Ejemplo de una libreria de react",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "react": "^18.2.0",
+    "typescript": "^5.0.4"
+  }
+}
