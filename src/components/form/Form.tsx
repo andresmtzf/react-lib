@@ -2,6 +2,7 @@ import React from 'react'
 import Input from '../input/Input'
 import { useForm } from 'react-hook-form'
 import { Usuario } from '../../models'
+import Button from '../button/Button'
 
 type TFormInputs = {
   id: number
@@ -25,11 +26,12 @@ const Form = () => {
   return (
     <div>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <Input inputName='id' register={register}></Input>
-        <Input inputName='edad' register={register}></Input>
-        <Input inputName='email' register={register}></Input>
-        <Input inputName='esAdmin' register={register}></Input>
-        <Input inputName='fechaCreacion' register={register}></Input>
+        <Input name='id' inputName='id' register={register}></Input>
+        <Input name='edad' inputName='edad' register={register}></Input>
+        <Input name='email' inputName='email' register={register}></Input>
+        <Input name='esAdmin' inputName='esAdmin' register={register}></Input>
+        <Input name='fechaCreacion' inputName='fechaCreacion' register={register}></Input>
+        <Button label='submit' type='submit'></Button>
       </form>
     </div>
   )
