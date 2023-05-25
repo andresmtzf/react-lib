@@ -26,7 +26,7 @@ export default [
       resolve(),
       commonjs({ include: 'src/**' }),
       typescript({ tsconfig: './tsconfig.json' }),
-      sass({ insert: true, output: 'dist/main.scss' }),
+      sass({ insert: true, output: true }),
     ],
     external: ['react', 'react-dom'],
   },
