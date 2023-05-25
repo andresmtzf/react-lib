@@ -28,7 +28,7 @@ export default [
       typescript({ tsconfig: './tsconfig.json' }),
       sass({ insert: true }),
     ],
-    external: ['react', 'react-dom'],
+    external: ['react', 'react-dom', 'reac-hook-form'],
   },
   {
     input: 'dist/esm/types/index.d.ts',
