@@ -4,7 +4,7 @@ import typescript from '@rollup/plugin-typescript'
 import dts from 'rollup-plugin-dts'
 import sass from 'rollup-plugin-sass'
 import packageJson from './package.json' assert { type: 'json' }
-import peerDepsExternal from 'rollup-plugin-peer-deps-external'
+//import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 
 export default [
   {
@@ -28,7 +28,7 @@ export default [
       typescript({ tsconfig: './tsconfig.json' }),
       sass({ insert: true }),
     ],
-    external: ['react', 'react-dom', 'react-hook-form'],
+    external: ['react', 'react-dom'],
   },
   {
     input: 'dist/esm/types/index.d.ts',
