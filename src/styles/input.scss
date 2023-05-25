@@ -1,0 +1,29 @@
+$input-bg: #f8f8f8;
+$input-border: 1px solid #dcdcdc;
+$input-focus-border: 1px solid #007bff;
+$input-placeholder-color: #a0a0a0;
+$input-text-color: #333;
+$input-font-size: 14px;
+$input-padding: 10px;
+$input-transition: border-color 0.2s ease-in-out;
+
+// Estilos del input
+.input {
+  background-color: $input-bg;
+  border: $input-border;
+  border-radius: 4px;
+  color: $input-text-color;
+  font-size: $input-font-size;
+  padding: $input-padding;
+  transition: $input-transition;
+  width: 100%;
+
+  &:focus {
+    border: $input-focus-border;
+    outline: none;
+  }
+
+  &::placeholder {
+    color: $input-placeholder-color;
+  }
+}
