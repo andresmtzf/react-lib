@@ -14,8 +14,6 @@ export default [
         file: packageJson.main,
         format: 'cjs',
         sourcemap: false,
-        //exports: 'named',
-        //strict: false
       },
       {
         file: packageJson.module,
