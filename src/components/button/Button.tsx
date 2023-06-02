@@ -1,5 +1,5 @@
 import React, { ButtonHTMLAttributes } from 'react'
-import './Button.scss'
+import '../../styles/Button.scss'
 
 export interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   primary?: boolean
