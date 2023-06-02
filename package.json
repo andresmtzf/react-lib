@@ -1,6 +1,6 @@
 {
   "name": "temp-react-lib-v5",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Ejemplo de una libreria de react",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
