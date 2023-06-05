@@ -126,7 +126,7 @@ $input-transition: border-color 0.2s ease-in-out; */
   --bs-form-valid-border-color: #198754;
   --bs-form-invalid-color: #dc3545;
   --bs-form-invalid-border-color: #dc3545;
-  --input-bg: #f8f8f8;
+  $input-bg: #f8f8f8;
   --input-border: 1px solid #dcdcdc;
   --input-focus-border: 1px solid #ff00aa;
   --input-placeholder-color: #a0a0a0;
